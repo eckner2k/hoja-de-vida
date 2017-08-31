@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Hoja de Vida - Eckner Abanto Rojas</title>
+</head>
+<body>
+	<header>
+		<img src="img/logo.svg" width="200px" height="60px" alt="logo" title="Logo"></img>
+		<h1>Hoja de Vida</h1>
+		<h2>Eckner Abanto Rojas</h2>
+		<h3>26-11-1978 Cajamarca - Perú</h3>
+		<nav>
+			<ul>
+				<li><a href="index.html">Incio</a></li>
+				<li><a href="educacion.html">Educación</a></li>
+				<li><a href="experiencia.html">Experiencia</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<h2>Educación</h2>
+		<table border='1px'>
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>data</td>
+					<td>data</td>
+					<td>data</td>
+					<td>data</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<form action="educacion_submit" method="get" accept-charset="utf-8">
+
+			<h3>Agregar Estudios</h3>
+				<div>
+					<label for="anio">Año:</label>
+					<select name="anio" id="anio">
+					  <option value="2017">2017</option>
+					  <option value="2016">2016</option>
+					  <option value="2015">2015</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="institucion">Institución:</label>
+					<input type="text" name="institucion" id="institucion" required>
+				</div>
+
+				<div>
+					<label for="lugar">Lugar:</label>
+					<textarea name="lugar" id="lugar" rows="3" cols="30"></textarea>
+				</div>
+
+				<div>
+					<label for="culmino">Culminó?</label>
+					<input name="culmino" id="si" type="radio" value="si" />Si
+					<input name="culmino" id="si" type="radio" value="no" />Ni
+				</div>
+
+				<div><input type="submit" value="Enviar"></div>
+
+		</form>
+	</main>
+
+	<footer>
+		<h4>Contáctanos</h4>
+		<ul>
+			<li>Mail: eckner2k@hotmail.com</li>
+			<li>Tel: 943972383</li>
+			<li>Dirección: Jr. Ayacucho Nro 1331 - Chachapoyas - Amazonas - Perú</li>
+		</ul>
+	</footer>
+</body>
+</html>
